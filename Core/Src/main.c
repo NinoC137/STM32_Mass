@@ -113,28 +113,28 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
 
-    uint64_t CardCap;        //SD卡容�??????????
+    uint64_t CardCap;        //SD卡容�??????????
     HAL_SD_CardCIDTypeDef SDCard_CID;
     HAL_SD_CardInfoTypeDef SDCardInfo;
 
     SD_Driver.disk_initialize(0);
 
     HAL_SD_GetCardCID(&hsd1, &SDCard_CID);    //获取CID
-    HAL_SD_GetCardInfo(&hsd1, &SDCardInfo);                    //获取SD卡信�??????????
-    CardCap = (uint64_t) (SDCardInfo.LogBlockNbr) * (uint64_t) (SDCardInfo.LogBlockSize);    //计算SD卡容�??????????
+    HAL_SD_GetCardInfo(&hsd1, &SDCardInfo);                    //获取SD卡信�??????????
+    CardCap = (uint64_t) (SDCardInfo.LogBlockNbr) * (uint64_t) (SDCardInfo.LogBlockSize);    //计算SD卡容�??????????
 
     uart_printf("Card ManufacturerID: %d \r\n", SDCard_CID.ManufacturerID);                //制�?�商ID
     uart_printf("CardVersion:         %d \r\n", (uint32_t) (SDCardInfo.CardVersion));        //卡版本号
     uart_printf("Class:               %d \r\n", (uint32_t) (SDCardInfo.Class));            //
-    uart_printf("Card RCA(RelCardAdd):%d \r\n", SDCardInfo.RelCardAdd);                    //卡相对地�??????????
-    uart_printf("Card BlockNbr:       %d \r\n", SDCardInfo.BlockNbr);                        //块数�??????????
-    uart_printf("Card BlockSize:      %d \r\n", SDCardInfo.BlockSize);                    //块大�??????????
-    uart_printf("LogBlockNbr:         %d \r\n", (uint32_t) (SDCardInfo.LogBlockNbr));        //逻辑块数�??????????
-    uart_printf("LogBlockSize:        %d \r\n", (uint32_t) (SDCardInfo.LogBlockSize));        //逻辑块大�??????????
-    uart_printf("Card Capacity:       %d MB\r\n", (uint32_t) (CardCap >> 20));                //卡容�??????????
+    uart_printf("Card RCA(RelCardAdd):%d \r\n", SDCardInfo.RelCardAdd);                    //卡相对地�??????????
+    uart_printf("Card BlockNbr:       %d \r\n", SDCardInfo.BlockNbr);                        //块数�??????????
+    uart_printf("Card BlockSize:      %d \r\n", SDCardInfo.BlockSize);                    //块大�??????????
+    uart_printf("LogBlockNbr:         %d \r\n", (uint32_t) (SDCardInfo.LogBlockNbr));        //逻辑块数�??????????
+    uart_printf("LogBlockSize:        %d \r\n", (uint32_t) (SDCardInfo.LogBlockSize));        //逻辑块大�??????????
+    uart_printf("Card Capacity:       %d MB\r\n", (uint32_t) (CardCap >> 20));                //卡容�??????????
 
-    //FileFormat("");   //初次使用SD卡一定要初始�??????????
-    f_mount(&fs, "", 0);    //由于在后续各类操作中取消了每次挂�??????????/解挂 这里必须要有f_mount();
+    //FileFormat("");   //初次使用SD卡一定要初始�??????????
+    f_mount(&fs, "", 0);    //由于在后续各类操作中取消了每次挂�??????????/解挂 这里必须要有f_mount();
     CreateNewFile("0:/", "Nino.txt", "I Love Rick From C137 :)\n");
     ReadFileData("0:/", "Nino.txt");
     ReadFileData("0:/", "HelloRick.txt");
