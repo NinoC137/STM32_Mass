@@ -20,7 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e306b83-e6a8-4ebb-95f6-3603e9ff7561" name="Changes" comment="Add FreeRTOS" />
+    <list default="true" id="6e306b83-e6a8-4ebb-95f6-3603e9ff7561" name="Changes" comment="Add FreeRTOS">
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +55,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -130,7 +133,7 @@
       <workItem from="1689823606228" duration="2321000" />
       <workItem from="1689856690342" duration="76000" />
       <workItem from="1689856777159" duration="1149000" />
-      <workItem from="1689905809466" duration="11851000" />
+      <workItem from="1689905809466" duration="12139000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1687057597920</created>
@@ -178,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689918056467</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add FreeRTOS">
+      <option name="closed" value="true" />
+      <created>1689918576747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689918576747</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

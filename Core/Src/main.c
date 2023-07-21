@@ -139,7 +139,7 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
-
+    /*FATFS thread in startTask*/
   /* USER CODE END RTOS_THREADS */
 
   /* Start scheduler */
@@ -479,25 +479,25 @@ void StartDefaultTask(void const * argument)
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 5 */
 
-    uint64_t CardCap;        //SD卡容�?????????????
+    uint64_t CardCap;        //SD卡容�?????????????
     HAL_SD_CardCIDTypeDef SDCard_CID;
     HAL_SD_CardInfoTypeDef SDCardInfo;
 
     SD_Driver.disk_initialize(0);
 
     HAL_SD_GetCardCID(&hsd1, &SDCard_CID);    //获取CID
-    HAL_SD_GetCardInfo(&hsd1, &SDCardInfo);                    //获取SD卡信�?????????????
-    CardCap = (uint64_t) (SDCardInfo.LogBlockNbr) * (uint64_t) (SDCardInfo.LogBlockSize);    //计算SD卡容�?????????????
+    HAL_SD_GetCardInfo(&hsd1, &SDCardInfo);                    //获取SD卡信�?????????????
+    CardCap = (uint64_t) (SDCardInfo.LogBlockNbr) * (uint64_t) (SDCardInfo.LogBlockSize);    //计算SD卡容�?????????????
 
     uart_printf("Card ManufacturerID: %d \r\n", SDCard_CID.ManufacturerID);                //制�?�商ID
     uart_printf("CardVersion:         %d \r\n", (uint32_t) (SDCardInfo.CardVersion));        //卡版本号
     uart_printf("Class:               %d \r\n", (uint32_t) (SDCardInfo.Class));            //
-    uart_printf("Card RCA(RelCardAdd):%d \r\n", SDCardInfo.RelCardAdd);                    //卡相对地�?????????????
-    uart_printf("Card BlockNbr:       %d \r\n", SDCardInfo.BlockNbr);                        //块数�?????????????
-    uart_printf("Card BlockSize:      %d \r\n", SDCardInfo.BlockSize);                    //块大�?????????????
-    uart_printf("LogBlockNbr:         %d \r\n", (uint32_t) (SDCardInfo.LogBlockNbr));        //逻辑块数�?????????????
-    uart_printf("LogBlockSize:        %d \r\n", (uint32_t) (SDCardInfo.LogBlockSize));        //逻辑块大�?????????????
-    uart_printf("Card Capacity:       %d MB\r\n", (uint32_t) (CardCap >> 20));                //卡容�?????????????
+    uart_printf("Card RCA(RelCardAdd):%d \r\n", SDCardInfo.RelCardAdd);                    //卡相对地�?????????????
+    uart_printf("Card BlockNbr:       %d \r\n", SDCardInfo.BlockNbr);                        //块数�?????????????
+    uart_printf("Card BlockSize:      %d \r\n", SDCardInfo.BlockSize);                    //块大�?????????????
+    uart_printf("LogBlockNbr:         %d \r\n", (uint32_t) (SDCardInfo.LogBlockNbr));        //逻辑块数�?????????????
+    uart_printf("LogBlockSize:        %d \r\n", (uint32_t) (SDCardInfo.LogBlockSize));        //逻辑块大�?????????????
+    uart_printf("Card Capacity:       %d MB\r\n", (uint32_t) (CardCap >> 20));                //卡容�?????????????
 
     osThreadDef(FATFS, FATFSTask, osPriorityAboveNormal, 0, 4096);
     FATFSTaskHandle = osThreadCreate(osThread(FATFS), NULL);
