@@ -21,7 +21,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e306b83-e6a8-4ebb-95f6-3603e9ff7561" name="Changes" comment="Add FreeRTOS">
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32_Mass" beforeDir="false" afterPath="$PROJECT_DIR$/STM32_Mass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -133,7 +135,7 @@
       <workItem from="1689823606228" duration="2321000" />
       <workItem from="1689856690342" duration="76000" />
       <workItem from="1689856777159" duration="1149000" />
-      <workItem from="1689905809466" duration="12139000" />
+      <workItem from="1689905809466" duration="12293000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1687057597920</created>
@@ -189,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689918576747</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add FreeRTOS">
+      <option name="closed" value="true" />
+      <created>1689918759003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689918759003</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +236,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/STM32_Mass" />
+    </ignored-roots>
     <MESSAGE value="init" />
     <MESSAGE value="Add CMSIS-RTOS Message Queues." />
     <MESSAGE value="finished USB Mass storage device and FATFS" />
