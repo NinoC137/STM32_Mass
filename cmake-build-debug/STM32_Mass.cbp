@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="STM32_Mass"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Clion_for_STM32/STM32_Mass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STM32_Mass.elf">
+				<Option output="E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/STM32_Mass.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Clion_for_STM32/STM32_Mass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H750xx"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Core/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/FATFS/Target"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/FATFS/App"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/Target"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/UserApp"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 STM32_Mass.elf"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STM32_Mass.elf/fast">
+				<Option output="E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/STM32_Mass.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Clion_for_STM32/STM32_Mass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H750xx"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Core/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/FATFS/Target"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/FATFS/App"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/Target"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/UserApp"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 STM32_Mass.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Clion_for_STM32/STM32_Mass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Clion_for_STM32/STM32_Mass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/make.exe -f &quot;E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Inc/main.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Inc/stm32h7xx_hal_conf.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Inc/stm32h7xx_it.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Src/main.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Src/stm32h7xx_hal_msp.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Src/stm32h7xx_hal_timebase_tim.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Src/stm32h7xx_it.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Src/syscalls.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Src/sysmem.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Src/system_stm32h7xx.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Startup/startup_stm32h750vbtx.s">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Device/ST/STM32H7xx/LICENSE.txt">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/CMSIS/LICENSE.txt">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_qspi.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crc.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_lpuart.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/FATFS/App/fatfs.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/FATFS/App/fatfs.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/FATFS/Target/bsp_driver_sd.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/FATFS/Target/bsp_driver_sd.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/FATFS/Target/fatfs_platform.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/FATFS/Target/fatfs_platform.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/FATFS/Target/ffconf.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/FATFS/Target/sd_diskio.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/FATFS/Target/sd_diskio.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_bot.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_data.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_scsi.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/diskio.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/diskio.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/ff.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/ff.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/integer.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/STM32H750VBTX_FLASH.ld">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usb_device.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usb_device.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usbd_desc.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usbd_desc.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usbd_storage_if.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usbd_storage_if.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/Target/usbd_conf.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/UserApp/retarget.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/UserApp/retarget.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
