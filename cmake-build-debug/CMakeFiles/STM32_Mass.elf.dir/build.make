@@ -68,10 +68,24 @@ include CMakeFiles/STM32_Mass.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STM32_Mass.elf.dir/flags.make
 
+CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.obj: E:/Clion_for_STM32/STM32_Mass/Core/Src/freertos.c
+CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Core\Src\freertos.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Core\Src\freertos.c.obj -c E:\Clion_for_STM32\STM32_Mass\Core\Src\freertos.c
+
+CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Core\Src\freertos.c > CMakeFiles\STM32_Mass.elf.dir\Core\Src\freertos.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Core\Src\freertos.c -o CMakeFiles\STM32_Mass.elf.dir\Core\Src\freertos.c.s
+
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj: E:/Clion_for_STM32/STM32_Mass/Core/Src/main.c
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Core\Src\main.c.obj -c E:\Clion_for_STM32\STM32_Mass\Core\Src\main.c
 
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: E:/Clion_for_STM32/STM32_Mass/Core/Src/stm32h7xx_hal_msp.c
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj -c E:\Clion_for_STM32\STM32_Mass\Core\Src\stm32h7xx_hal_msp.c
 
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: E:/Clion_for_STM32/STM32_Mass/Core/Src/stm32h7xx_hal_timebase_tim.c
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Core\Src\stm32h7xx_hal_timebase_tim.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Core\Src\stm32h7xx_hal_timebase_tim.c.obj -c E:\Clion_for_STM32\STM32_Mass\Core\Src\stm32h7xx_hal_timebase_tim.c
 
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.s: cmake_for
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_it.c.obj: E:/Clion_for_STM32/STM32_Mass/Core/Src/stm32h7xx_it.c
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_it.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_it.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Core\Src\stm32h7xx_it.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Core\Src\stm32h7xx_it.c.obj -c E:\Clion_for_STM32\STM32_Mass\Core\Src\stm32h7xx_it.c
 
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_it.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_it.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/syscalls.c.obj: E:/Clion_for_STM32/STM32_Mass/Core/Src/syscalls.c
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/syscalls.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Core\Src\syscalls.c.obj -c E:\Clion_for_STM32\STM32_Mass\Core\Src\syscalls.c
 
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/STM32_Mass.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/sysmem.c.obj: E:/Clion_for_STM32/STM32_Mass/Core/Src/sysmem.c
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/sysmem.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Core\Src\sysmem.c.obj -c E:\Clion_for_STM32\STM32_Mass\Core\Src\sysmem.c
 
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/STM32_Mass.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/system_stm32h7xx.c.obj: E:/Clion_for_STM32/STM32_Mass/Core/Src/system_stm32h7xx.c
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/system_stm32h7xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32_Mass.elf.dir/Core/Src/system_stm32h7xx.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Core/Src/system_stm32h7xx.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Core\Src\system_stm32h7xx.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Core\Src\system_stm32h7xx.c.obj -c E:\Clion_for_STM32\STM32_Mass\Core\Src\system_stm32h7xx.c
 
 CMakeFiles/STM32_Mass.elf.dir/Core/Src/system_stm32h7xx.c.i: cmake_force
@@ -168,7 +182,7 @@ CMakeFiles/STM32_Mass.elf.dir/Core/Src/system_stm32h7xx.c.s: cmake_force
 
 CMakeFiles/STM32_Mass.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj: E:/Clion_for_STM32/STM32_Mass/Core/Startup/startup_stm32h750vbtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/STM32_Mass.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/STM32_Mass.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STM32_Mass.elf.dir\Core\Startup\startup_stm32h750vbtx.s.obj -c E:\Clion_for_STM32\STM32_Mass\Core\Startup\startup_stm32h750vbtx.s
 
 CMakeFiles/STM32_Mass.elf.dir/Core/Startup/startup_stm32h750vbtx.s.i: cmake_force
@@ -182,7 +196,7 @@ CMakeFiles/STM32_Mass.elf.dir/Core/Startup/startup_stm32h750vbtx.s.s: cmake_forc
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i: cmake_force
@@ -196,7 +210,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cor
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_crc.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_crc.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_crc.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_crc_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_crc_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_crc_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ext
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fla
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fla
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpi
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hse
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdm
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_qspi.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_qspi.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_qspi.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c.i: cmake_force
@@ -448,7 +462,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qsp
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i: cmake_force
@@ -476,7 +490,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sd.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sd.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sd.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.i: cmake_force
@@ -490,7 +504,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sd_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sd_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_sd_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c.i: cmake_force
@@ -504,7 +518,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i: cmake_force
@@ -518,7 +532,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i: cmake_force
@@ -532,7 +546,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i: cmake_force
@@ -546,7 +560,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uar
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i: cmake_force
@@ -560,7 +574,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uar
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_delayblock.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_delayblock.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_delayblock.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.i: cmake_force
@@ -574,7 +588,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dela
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_sdmmc.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_sdmmc.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_sdmmc.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.i: cmake_force
@@ -588,7 +602,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmm
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj: E:/Clion_for_STM32/STM32_Mass/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usb.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usb.c.obj -c E:\Clion_for_STM32\STM32_Mass\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usb.c
 
 CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i: cmake_force
@@ -602,7 +616,7 @@ CMakeFiles/STM32_Mass.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.
 CMakeFiles/STM32_Mass.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/FATFS/App/fatfs.c.obj: E:/Clion_for_STM32/STM32_Mass/FATFS/App/fatfs.c
 CMakeFiles/STM32_Mass.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/STM32_Mass.elf.dir/FATFS/App/fatfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/STM32_Mass.elf.dir/FATFS/App/fatfs.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/FATFS/App/fatfs.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\FATFS\App\fatfs.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\FATFS\App\fatfs.c.obj -c E:\Clion_for_STM32\STM32_Mass\FATFS\App\fatfs.c
 
 CMakeFiles/STM32_Mass.elf.dir/FATFS/App/fatfs.c.i: cmake_force
@@ -616,7 +630,7 @@ CMakeFiles/STM32_Mass.elf.dir/FATFS/App/fatfs.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: E:/Clion_for_STM32/STM32_Mass/FATFS/Target/bsp_driver_sd.c
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/bsp_driver_sd.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\FATFS\Target\bsp_driver_sd.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\FATFS\Target\bsp_driver_sd.c.obj -c E:\Clion_for_STM32\STM32_Mass\FATFS\Target\bsp_driver_sd.c
 
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/bsp_driver_sd.c.i: cmake_force
@@ -630,7 +644,7 @@ CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/bsp_driver_sd.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/fatfs_platform.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/fatfs_platform.c.obj: E:/Clion_for_STM32/STM32_Mass/FATFS/Target/fatfs_platform.c
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/fatfs_platform.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/fatfs_platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/fatfs_platform.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/fatfs_platform.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\FATFS\Target\fatfs_platform.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\FATFS\Target\fatfs_platform.c.obj -c E:\Clion_for_STM32\STM32_Mass\FATFS\Target\fatfs_platform.c
 
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/fatfs_platform.c.i: cmake_force
@@ -644,7 +658,7 @@ CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/fatfs_platform.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/sd_diskio.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/sd_diskio.c.obj: E:/Clion_for_STM32/STM32_Mass/FATFS/Target/sd_diskio.c
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/sd_diskio.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/sd_diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/sd_diskio.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/sd_diskio.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\FATFS\Target\sd_diskio.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\FATFS\Target\sd_diskio.c.obj -c E:\Clion_for_STM32\STM32_Mass\FATFS\Target\sd_diskio.c
 
 CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/sd_diskio.c.i: cmake_force
@@ -658,7 +672,7 @@ CMakeFiles/STM32_Mass.elf.dir/FATFS/Target/sd_diskio.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i: cmake_force
@@ -672,7 +686,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i: cmake_force
@@ -686,7 +700,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i: cmake_force
@@ -700,7 +714,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i: cmake_force
@@ -714,7 +728,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
@@ -728,7 +742,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/u
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
@@ -742,7 +756,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/u
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
@@ -756,7 +770,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/u
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/diskio.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FatFs\src\diskio.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i: cmake_force
@@ -770,7 +784,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s: cmak
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/ff.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FatFs\src\ff.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i: cmake_force
@@ -784,7 +798,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s: cmake_fo
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i: cmake_force
@@ -798,7 +812,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s: 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i: cmake_force
@@ -812,7 +826,7 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/option/syscall.c
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FatFs\src\option\syscall.c
 
 CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i: cmake_force
@@ -823,10 +837,150 @@ CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FatFs\src\option\syscall.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.s
 
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/list.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\list.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/queue.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\queue.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
+
+CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
+	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Clion_for_STM32\STM32_Mass\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\STM32_Mass.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
+
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj: E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usb_device.c
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\USB_DEVICE\App\usb_device.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\USB_DEVICE\App\usb_device.c.obj -c E:\Clion_for_STM32\STM32_Mass\USB_DEVICE\App\usb_device.c
 
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.i: cmake_force
@@ -840,7 +994,7 @@ CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usbd_desc.c
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\USB_DEVICE\App\usbd_desc.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\USB_DEVICE\App\usbd_desc.c.obj -c E:\Clion_for_STM32\STM32_Mass\USB_DEVICE\App\usbd_desc.c
 
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
@@ -854,7 +1008,7 @@ CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj: E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usbd_storage_if.c
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\USB_DEVICE\App\usbd_storage_if.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\USB_DEVICE\App\usbd_storage_if.c.obj -c E:\Clion_for_STM32\STM32_Mass\USB_DEVICE\App\usbd_storage_if.c
 
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.i: cmake_force
@@ -868,7 +1022,7 @@ CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/Target/usbd_conf.c
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj -c E:\Clion_for_STM32\STM32_Mass\USB_DEVICE\Target\usbd_conf.c
 
 CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
@@ -882,7 +1036,7 @@ CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
 CMakeFiles/STM32_Mass.elf.dir/UserApp/retarget.c.obj: CMakeFiles/STM32_Mass.elf.dir/flags.make
 CMakeFiles/STM32_Mass.elf.dir/UserApp/retarget.c.obj: E:/Clion_for_STM32/STM32_Mass/UserApp/retarget.c
 CMakeFiles/STM32_Mass.elf.dir/UserApp/retarget.c.obj: CMakeFiles/STM32_Mass.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/STM32_Mass.elf.dir/UserApp/retarget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/STM32_Mass.elf.dir/UserApp/retarget.c.obj"
 	E:\gcc-arm-none-eabi-10-2020-q4-major\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_Mass.elf.dir/UserApp/retarget.c.obj -MF CMakeFiles\STM32_Mass.elf.dir\UserApp\retarget.c.obj.d -o CMakeFiles\STM32_Mass.elf.dir\UserApp\retarget.c.obj -c E:\Clion_for_STM32\STM32_Mass\UserApp\retarget.c
 
 CMakeFiles/STM32_Mass.elf.dir/UserApp/retarget.c.i: cmake_force
@@ -895,6 +1049,7 @@ CMakeFiles/STM32_Mass.elf.dir/UserApp/retarget.c.s: cmake_force
 
 # Object files for target STM32_Mass.elf
 STM32_Mass_elf_OBJECTS = \
+"CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj" \
 "CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj" \
@@ -949,6 +1104,16 @@ STM32_Mass_elf_OBJECTS = \
 "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj" \
 "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj" \
 "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
+"CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
 "CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj" \
 "CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" \
 "CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj" \
@@ -958,6 +1123,7 @@ STM32_Mass_elf_OBJECTS = \
 # External object files for target STM32_Mass.elf
 STM32_Mass_elf_EXTERNAL_OBJECTS =
 
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.obj
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj
@@ -1012,6 +1178,16 @@ STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj
@@ -1020,7 +1196,7 @@ STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/UserApp/retarget.c.obj
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/build.make
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/objects1
 STM32_Mass.elf: CMakeFiles/STM32_Mass.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking C executable STM32_Mass.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Clion_for_STM32\STM32_Mass\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking C executable STM32_Mass.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\STM32_Mass.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/STM32_Mass.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Clion_for_STM32/STM32_Mass/cmake-build-debug/STM32_Mass.bin"

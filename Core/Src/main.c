@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "cmsis_os.h"
 #include "fatfs.h"
 #include "usb_device.h"
 
@@ -53,8 +54,9 @@ SD_HandleTypeDef hsd1;
 UART_HandleTypeDef huart1;
 
 MDMA_HandleTypeDef hmdma_mdma_channel40_sdmmc1_end_data_0;
+osThreadId defaultTaskHandle;
 /* USER CODE BEGIN PV */
-
+osThreadId FATFSTaskHandle;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -65,9 +67,10 @@ static void MX_QUADSPI_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_SDMMC1_SD_Init(void);
 static void MX_CRC_Init(void);
+void StartDefaultTask(void const * argument);
+
 /* USER CODE BEGIN PFP */
-
-
+void FATFSTask(void const *argument);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -109,43 +112,39 @@ int main(void)
   MX_USART1_UART_Init();
   MX_SDMMC1_SD_Init();
   MX_CRC_Init();
-  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
 
-
-    uint64_t CardCap;        //SD卡容�??????????
-    HAL_SD_CardCIDTypeDef SDCard_CID;
-    HAL_SD_CardInfoTypeDef SDCardInfo;
-
-    SD_Driver.disk_initialize(0);
-
-    HAL_SD_GetCardCID(&hsd1, &SDCard_CID);    //获取CID
-    HAL_SD_GetCardInfo(&hsd1, &SDCardInfo);                    //获取SD卡信�??????????
-    CardCap = (uint64_t) (SDCardInfo.LogBlockNbr) * (uint64_t) (SDCardInfo.LogBlockSize);    //计算SD卡容�??????????
-
-    uart_printf("Card ManufacturerID: %d \r\n", SDCard_CID.ManufacturerID);                //制�?�商ID
-    uart_printf("CardVersion:         %d \r\n", (uint32_t) (SDCardInfo.CardVersion));        //卡版本号
-    uart_printf("Class:               %d \r\n", (uint32_t) (SDCardInfo.Class));            //
-    uart_printf("Card RCA(RelCardAdd):%d \r\n", SDCardInfo.RelCardAdd);                    //卡相对地�??????????
-    uart_printf("Card BlockNbr:       %d \r\n", SDCardInfo.BlockNbr);                        //块数�??????????
-    uart_printf("Card BlockSize:      %d \r\n", SDCardInfo.BlockSize);                    //块大�??????????
-    uart_printf("LogBlockNbr:         %d \r\n", (uint32_t) (SDCardInfo.LogBlockNbr));        //逻辑块数�??????????
-    uart_printf("LogBlockSize:        %d \r\n", (uint32_t) (SDCardInfo.LogBlockSize));        //逻辑块大�??????????
-    uart_printf("Card Capacity:       %d MB\r\n", (uint32_t) (CardCap >> 20));                //卡容�??????????
-
-    //FileFormat("");   //初次使用SD卡一定要初始�??????????
-    f_mount(&fs, "", 0);    //由于在后续各类操作中取消了每次挂�??????????/解挂 这里必须要有f_mount();
-    CreateNewFile("0:/", "Nino.txt", "I Love Rick From C137 :)\n");
-    ReadFileData("0:/", "Nino.txt");
-    ReadFileData("0:/", "HelloRick.txt");
-
-    CreateDir("", "Nino_Dir");
-    CreateDir("0:/Nino_Dir/", "Nino_Dir_1");
-
-    ViewRootDir("");
-    ViewRootDir("0:/Nino_Dir");
   /* USER CODE END 2 */
 
+  /* USER CODE BEGIN RTOS_MUTEX */
+    /* add mutexes, ... */
+  /* USER CODE END RTOS_MUTEX */
+
+  /* USER CODE BEGIN RTOS_SEMAPHORES */
+    /* add semaphores, ... */
+  /* USER CODE END RTOS_SEMAPHORES */
+
+  /* USER CODE BEGIN RTOS_TIMERS */
+    /* start timers, add new ones, ... */
+  /* USER CODE END RTOS_TIMERS */
+
+  /* USER CODE BEGIN RTOS_QUEUES */
+    /* add queues, ... */
+  /* USER CODE END RTOS_QUEUES */
+
+  /* Create the thread(s) */
+  /* definition and creation of defaultTask */
+  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 2048);
+  defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+
+  /* USER CODE BEGIN RTOS_THREADS */
+    /* add threads, ... */
+
+  /* USER CODE END RTOS_THREADS */
+
+  /* Start scheduler */
+  osKernelStart();
+  /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1) {
@@ -153,8 +152,6 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 //        ViewRootDir("");
-        HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
-        HAL_Delay(1000);
     }
   /* USER CODE END 3 */
 }
@@ -468,6 +465,49 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
+
+/* USER CODE BEGIN Header_StartDefaultTask */
+/**
+  * @brief  Function implementing the defaultTask thread.
+  * @param  argument: Not used
+  * @retval None
+  */
+/* USER CODE END Header_StartDefaultTask */
+void StartDefaultTask(void const * argument)
+{
+  /* init code for USB_DEVICE */
+  MX_USB_DEVICE_Init();
+  /* USER CODE BEGIN 5 */
+
+    uint64_t CardCap;        //SD卡容�?????????????
+    HAL_SD_CardCIDTypeDef SDCard_CID;
+    HAL_SD_CardInfoTypeDef SDCardInfo;
+
+    SD_Driver.disk_initialize(0);
+
+    HAL_SD_GetCardCID(&hsd1, &SDCard_CID);    //获取CID
+    HAL_SD_GetCardInfo(&hsd1, &SDCardInfo);                    //获取SD卡信�?????????????
+    CardCap = (uint64_t) (SDCardInfo.LogBlockNbr) * (uint64_t) (SDCardInfo.LogBlockSize);    //计算SD卡容�?????????????
+
+    uart_printf("Card ManufacturerID: %d \r\n", SDCard_CID.ManufacturerID);                //制�?�商ID
+    uart_printf("CardVersion:         %d \r\n", (uint32_t) (SDCardInfo.CardVersion));        //卡版本号
+    uart_printf("Class:               %d \r\n", (uint32_t) (SDCardInfo.Class));            //
+    uart_printf("Card RCA(RelCardAdd):%d \r\n", SDCardInfo.RelCardAdd);                    //卡相对地�?????????????
+    uart_printf("Card BlockNbr:       %d \r\n", SDCardInfo.BlockNbr);                        //块数�?????????????
+    uart_printf("Card BlockSize:      %d \r\n", SDCardInfo.BlockSize);                    //块大�?????????????
+    uart_printf("LogBlockNbr:         %d \r\n", (uint32_t) (SDCardInfo.LogBlockNbr));        //逻辑块数�?????????????
+    uart_printf("LogBlockSize:        %d \r\n", (uint32_t) (SDCardInfo.LogBlockSize));        //逻辑块大�?????????????
+    uart_printf("Card Capacity:       %d MB\r\n", (uint32_t) (CardCap >> 20));                //卡容�?????????????
+
+    osThreadDef(FATFS, FATFSTask, osPriorityAboveNormal, 0, 4096);
+    FATFSTaskHandle = osThreadCreate(osThread(FATFS), NULL);
+    /* Infinite loop */
+    for (;;) {
+        HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+        osDelay(1000);
+    }
+  /* USER CODE END 5 */
+}
 
 /**
   * @brief  Period elapsed callback in non blocking mode

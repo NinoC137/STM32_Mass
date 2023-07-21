@@ -39,6 +39,9 @@
 					<Add directory="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/Target"/>
 					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="E:/Clion_for_STM32/STM32_Mass/UserApp"/>
 					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
 					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
@@ -76,6 +79,9 @@
 					<Add directory="E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/Target"/>
 					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
 					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="E:/Clion_for_STM32/STM32_Mass/UserApp"/>
 					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
 					<Add directory="e:\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
@@ -112,6 +118,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Inc/FreeRTOSConfig.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
 		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Inc/main.h">
 			<Option target="STM32_Mass.elf"/>
 		</Unit>
@@ -119,6 +128,9 @@
 			<Option target="STM32_Mass.elf"/>
 		</Unit>
 		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Inc/stm32h7xx_it.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Src/freertos.c">
 			<Option target="STM32_Mass.elf"/>
 		</Unit>
 		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Core/Src/main.c">
@@ -569,6 +581,96 @@
 			<Option target="STM32_Mass.elf"/>
 		</Unit>
 		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="STM32_Mass.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
 			<Option target="STM32_Mass.elf"/>
 		</Unit>
 		<Unit filename="E:/Clion_for_STM32/STM32_Mass/STM32H750VBTX_FLASH.ld">

@@ -33,11 +33,15 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/Target"
   "E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
   "E:/Clion_for_STM32/STM32_Mass/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/include"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
   "E:/Clion_for_STM32/STM32_Mass/UserApp"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/Clion_for_STM32/STM32_Mass/Core/Src/freertos.c" "CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Core/Src/freertos.c.obj.d"
   "E:/Clion_for_STM32/STM32_Mass/Core/Src/main.c" "CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Core/Src/main.c.obj.d"
   "E:/Clion_for_STM32/STM32_Mass/Core/Src/stm32h7xx_hal_msp.c" "CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj.d"
   "E:/Clion_for_STM32/STM32_Mass/Core/Src/stm32h7xx_hal_timebase_tim.c" "CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj.d"
@@ -91,6 +95,16 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj.d"
   "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj.d"
   "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FatFs/src/option/syscall.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/list.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/queue.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d"
+  "E:/Clion_for_STM32/STM32_Mass/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d"
   "E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usb_device.c" "CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usb_device.c.obj.d"
   "E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usbd_desc.c" "CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_desc.c.obj.d"
   "E:/Clion_for_STM32/STM32_Mass/USB_DEVICE/App/usbd_storage_if.c" "CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj" "gcc" "CMakeFiles/STM32_Mass.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj.d"
