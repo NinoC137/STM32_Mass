@@ -1,0 +1,229 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]" date="1689594831080" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2023/7/17 19:53 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/startup_stm32h750vbtx.s.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/heap_4.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stream_buffer.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_dma_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_pwr_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/croutine.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_tim.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_uart_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/CMakeDetermineCompilerABI_C.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/timers.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_i2c_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_uart.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/tasks.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/CMakeCXXCompilerId.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_mdma.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/stm32h7xx_it.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/stm32h7xx_it.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_it.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/event_groups.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_msp.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/STM32H7_Test.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/STM32H7_Test.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/STM32H7_Test.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_tim_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/list.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/queue.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/freertos.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/freertos.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/freertos.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/cmsis_os.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/syscalls.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/syscalls.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/syscalls.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/port.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_flash_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_pwr.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_i2c.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/main.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/main.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/main.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/sysmem.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/sysmem.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/sysmem.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_exti.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/rules.ninja" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_flash.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_gpio.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/CMakeCCompilerId.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/system_stm32h7xx.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Core/Src/system_stm32h7xx.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/system_stm32h7xx.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_rcc.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_dma.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_rcc_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_hsem.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/STM32H7_Test.elf" />
+    <option name="AFTER_PATH" value="cmake-build-debug/STM32H7_Test.elf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/STM32H7_Test.elf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/CMakeDetermineCompilerABI_CXX.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/STM32H7_Test.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_7_17_19_53_[Changes]/stm32h7xx_hal_cortex.c.obj" />
+  </binary>
+</changelist>
