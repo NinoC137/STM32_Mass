@@ -20,82 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e306b83-e6a8-4ebb-95f6-3603e9ff7561" name="Changes" comment="finished USB Mass storage device and FATFS">
-      <change afterPath="$PROJECT_DIR$/Core/Inc/FreeRTOSConfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/freertos.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/list.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/task.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/list.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/queue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/timers.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32h7xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32h7xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32h7xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32h7xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32h7xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32h7xx_hal_msp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32h7xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32h7xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FATFS/Target/ffconf.h" beforeDir="false" afterPath="$PROJECT_DIR$/FATFS/Target/ffconf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FATFS/Target/sd_diskio.c" beforeDir="false" afterPath="$PROJECT_DIR$/FATFS/Target/sd_diskio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FATFS/Target/sd_diskio.h" beforeDir="false" afterPath="$PROJECT_DIR$/FATFS/Target/sd_diskio.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STM32_Mass.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32_Mass.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-142b2fb16cda2be18c3e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-a7c777ba4cb12c5cf86f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-bbc89b9eb2b555ebe1b1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-21T04-56-21-0973.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-STM32_Mass.elf-Debug-25eb9feae4038f68def8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/objects1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/objects1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32_Mass.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32_Mass.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-    </list>
+    <list default="true" id="6e306b83-e6a8-4ebb-95f6-3603e9ff7561" name="Changes" comment="Add FreeRTOS" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +130,7 @@
       <workItem from="1689823606228" duration="2321000" />
       <workItem from="1689856690342" duration="76000" />
       <workItem from="1689856777159" duration="1149000" />
-      <workItem from="1689905809466" duration="11351000" />
+      <workItem from="1689905809466" duration="11851000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1687057597920</created>
@@ -245,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689915902349</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add FreeRTOS">
+      <option name="closed" value="true" />
+      <created>1689918056467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689918056467</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +201,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -285,7 +218,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="Add CMSIS-RTOS Message Queues." />
     <MESSAGE value="finished USB Mass storage device and FATFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished USB Mass storage device and FATFS" />
+    <MESSAGE value="Add FreeRTOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FreeRTOS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
